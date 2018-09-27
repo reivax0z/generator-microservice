@@ -1,0 +1,20 @@
+.DS_Store
+*.swp
+
+.serverless
+.env
+
+# Generated files & folders
+dist
+lib
+coverage
+node_modules
+output
+**/package-lock.json
+
+# Editor specific
+*.iml
+.idea
+
+# Generator config
+.yo-rc.json

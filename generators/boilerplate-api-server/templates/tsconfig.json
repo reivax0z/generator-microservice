@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": false,
+        "target": "es2015",
+        "module": "commonjs",
+        "outDir": "dist",
+        "forceConsistentCasingInFileNames": true,
+        "typeRoots": [
+          "node_modules/@types"
+        ],
+        "baseUrl": ".",
+        "paths": {
+          "*": [ "*", "src/*"]
+        },
+        "plugins": [
+          {
+            "name": "tslint-language-service"
+          }
+        ]
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
