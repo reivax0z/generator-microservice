@@ -17,9 +17,7 @@ describe('index', () => {
           'content-type': 'application/json',
           'ds-correlation-id': '12345',
         },
-        body: {
-          mailboxName: 'client@telstra.com',
-        },
+        body: 'some_data',
         path: '/v1/my-service',
         httpMethod: 'POST',
       };
@@ -53,7 +51,7 @@ describe('index', () => {
           'content-type': 'application/json',
         },
         body: {
-          mailboxName: 'client@telstra.com',
+          mailboxName: 'client@gmail.com',
         },
         path: '/v1/my-service',
         httpMethod: 'POST',
@@ -89,7 +87,7 @@ describe('index', () => {
           'ds-correlation-id': '12345',
         },
         body: {
-          mailboxName: 'client@telstra.com',
+          mailboxName: 'client@gmail.com',
         },
         path: '/v1/my-service',
         httpMethod: 'POST',

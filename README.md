@@ -1,6 +1,6 @@
-# Telstra Micro-service Generator
+# Micro-service Generator
 
-> Creates a base template to start a new Telstra **Node.js API** micro-service. 
+> Creates a base template to start a new **Node.js** micro-service. 
   Forked from [generator-node](https://github.com/yeoman/generator-generator)
 
 
@@ -81,5 +81,6 @@ Remember you can see the options of each sub generators by running `yo micro-ser
 
 
 ### TODO 
+- Add Cloudformation templates
 - Add support for local testing
 - Add standalone build / deployment scripts to AWS

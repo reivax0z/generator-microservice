@@ -2,8 +2,8 @@
   "name": "generator-micro-service",
   "version": "1.0.0",
   "description": "Create a Node.js micro-service skeleton",
-  "homepage": "https://github.com/telstra-cip/generator-micro-service",
-  "author": "Versent",
+  "homepage": "https://github.com/reivax0z/generator-microservice",
+  "author": "Xavier Caron",
   "files": [
     "index.js",
     "generators"
@@ -36,7 +36,7 @@
     "yeoman-assert": "^3.1.1",
     "yeoman-test": "^1.7.0"
   },
-  "repository": "https://github.com/telstra-cip/generator-micro-service",
+  "repository": "https://github.com/reivax0z/generator-microservice",
   "scripts": {
     "build": "npm install && gulp",
     "test": "env-cmd .env.test jest",

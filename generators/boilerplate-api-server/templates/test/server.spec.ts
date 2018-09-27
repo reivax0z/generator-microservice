@@ -17,7 +17,7 @@ describe('server', () => {
       request(server.app).post('/v1/my-service')
         .set('ds-correlation-id', '12345')
         .send({
-          mailboxName: 'client@telstra.com',
+          mailboxName: 'client@gmail.com',
         })
         .expect(200)
         .end((err, res) => {
@@ -49,7 +49,7 @@ describe('server', () => {
 
       request(server.app).post('/v1/my-service')
         .send({
-          mailboxName: 'client@telstra.com',
+          mailboxName: 'client@gmail.com',
         })
         .expect(200)
         .end((err, res) => {
@@ -82,7 +82,7 @@ describe('server', () => {
       request(server.app).post('/v1/my-service')
         .set('ds-correlation-id', '12345')
         .send({
-          mailboxName: 'client@telstra.com',
+          mailboxName: 'client@gmail.com',
         })
         .expect(500)
         .end((err, res) => {
